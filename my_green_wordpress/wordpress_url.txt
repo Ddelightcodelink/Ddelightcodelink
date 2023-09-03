@@ -1,0 +1,11 @@
+#My Green Wordpress
+
+Home: https://deg8tech.wordpress.com/
+
+About Us: https://deg8tech.wordpress.com/about/
+
+Our Services: https://deg8tech.wordpress.com/our-services/
+
+Blog: https://deg8tech.wordpress.com/blog/
+
+Contact: https://deg8tech.wordpress.com/contact/
