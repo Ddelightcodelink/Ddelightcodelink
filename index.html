@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY-TETRIS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="tetris">
+        <div id="info">
+          <div id="next_shape"></div>
+          <p id="level">Level: <span id="level_val">0</span></p>
+          <p id="lines">Lines: <span id="lines_val">0</span></p>
+          <p id="score">Score: <span id="score_val">0</span></p>
+          <p id="time">Time: <span id="time_val">0</span></p>
+          <button id="start">Start</button>
+          <p class="pause">Press the Esc button to pause<span></span></p>
+        </div>
+        <div id="canvas"></div>
+        <div>
+            <span class="copyright-txt">
+                Tetris © 1985~2020 Tetris Holding.
+                Tetris logos, Tetris theme song and Tetriminos
+                are trademarks of Tetris Holding.
+                The Tetris trade dress is owned by Tetris Holding.
+                Licensed to The Tetris Company.<br> Tetris Game Design by Alexey Pajitnov.
+                Tetris Logo Design by Roger Dean.<br> All Rights Reserved.
+            </span>
+        </div>
+    </div>
+    <div id="control">
+        <h1 class="logo">Tetris</h1>
+        <h3>Controls</h3>
+        <p>Move Piece: Arrow Keys</p>
+        <p>Q: Rotate Left</p>
+        <p>Up Arrow: Rotate Right</p>
+        <p>HardDrop: Spacebar</p>
+        <div>
+            <audio id="tetris-music" controls>
+                <source src="/audio/Korobeiniki.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <script type="text/javascript" src="constants.js"></script>
+    <script type="text/javascript" src="pieces.js"></script>
+    <script type="text/javascript" src="tetris.js"></script>
+</body>
+</html>
